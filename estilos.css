@@ -25,5 +25,14 @@ img {
     align-items: center;
     font-family: cursive;
     background-color: rgb(206, 163, 140);
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
     color: rgb(133, 86, 70);
+    letter-spacing: 2px;
+    font-size: 28px; ;
 }
