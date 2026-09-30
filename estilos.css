@@ -80,3 +80,7 @@ img {
     font-size: 35px;
     margin-bottom: 15px;
 }
+.noticia p {
+    padding: 10px;
+    color: rgb(152, 112, 94);
+}
