@@ -65,18 +65,18 @@ img {
 }
 .titulo-sección {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 42px;
     margin-bottom: 25px;
     color: rgb(72, 52, 52);
 }
 .noticia {
-    padding: 90px 7%;
+    padding: 20px 7%;
     margin: 20px;
-    background-color: rgb(181, 140, 121);
+    background-color: rgb(230, 186, 166);
     border-radius: 10px;
 }
 .noticia-titulo {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 15px;
 }
