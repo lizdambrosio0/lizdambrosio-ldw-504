@@ -8,9 +8,16 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center space-between;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
 }
 .Encabezado {
     text-align: center;
+    font-family: cursive;
 
 }
