@@ -23,6 +23,8 @@ body {
 .navegador a {
     text-decoration: none;
     list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 nav a:hover {
     color: brown;
@@ -84,10 +86,7 @@ img {
     padding: 10px;
     color: rgb(152, 112, 94);
 }
-a{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 .pie {
 
 }
