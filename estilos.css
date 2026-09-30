@@ -39,5 +39,16 @@ img {
     font-family: cursive;
     color: rgb(133, 86, 70);
     letter-spacing: 2px;
-    font-size: 28px; ;
+    font-size: 42px; ;
+}
+
+.sección {
+    padding: 90px 7%;
+    color: black;
+}
+.titulo-sección {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 45px;
+    color: rgb(72, 52, 52);
 }
