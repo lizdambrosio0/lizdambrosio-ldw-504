@@ -23,11 +23,13 @@ nav a:hover {
     color: brown;
     font-size: 15px;
 }
+
 img {
     max-width: 100%;
     display: block;
     border-radius: 8px;
 }
+
 .Encabezado {
     width: 100%;
     padding: 25px 7%;
@@ -44,7 +46,7 @@ img {
     justify-content: space-between;
     align-items: center;
     font-family: cursive;
-    color: rgb(133, 86, 70);
+    color: rgb(100, 64, 51);
     letter-spacing: 2px;
     font-size: 42px; ;
 }
@@ -55,7 +57,18 @@ img {
 }
 .titulo-sección {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 45px;
     color: rgb(72, 52, 52);
+}
+.noticia {
+    padding: 90px 7%;
+    margin: 20px;
+    background-color: rgb(181, 140, 121);
+    border-radius: 10px;
+}
+.noticia-titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 15px;
 }
