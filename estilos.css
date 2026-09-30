@@ -17,7 +17,12 @@ body {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
-    color: inherit;
+    flex-wrap: wrap;
+    color: black;
+}
+.navegador a {
+    text-decoration: none;
+    list-style: none;
 }
 nav a:hover {
     color: brown;
@@ -40,6 +45,7 @@ img {
     align-items: center;
     font-family: cursive;
     background-color: rgb(206, 163, 140);
+    flex-wrap: wrap;
 }
 
 #logo {
