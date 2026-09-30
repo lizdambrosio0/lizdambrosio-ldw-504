@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,7 +14,7 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
-    gap: 35px;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
     color: inherit;
@@ -30,6 +36,7 @@ img {
     align-items: center;
     font-family: cursive;
     background-color: rgb(206, 163, 140);
+    border-radius: 10px;
 }
 
 #logo {
