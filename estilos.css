@@ -8,9 +8,14 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
+    gap: 35px;
     justify-content: space-between;
     align-items: center;
     color: inherit;
+}
+nav a:hover {
+    color: brown;
+    font-size: 15px;
 }
 img {
     max-width: 100%;
