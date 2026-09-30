@@ -8,7 +8,8 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
-    justify-content: center space-between;
+    justify-content: space-between;
+    align-items: center;
     color: inherit;
 }
 img {
@@ -17,7 +18,12 @@ img {
     border-radius: 8px;
 }
 .Encabezado {
-    text-align: center;
+    width: 100%;
+    padding: 25px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: cursive;
-
+    background-color: rgb(206, 163, 140);
+    color: rgb(133, 86, 70);
 }
