@@ -30,8 +30,8 @@ nav a:hover {
 }
 
 img {
-    width: 400px;
-    height: 200px;
+    width: 200px;
+    height: 500px;
     object-fit: cover;
     display: block;
     border-radius: 8px;
