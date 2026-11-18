@@ -760,3 +760,50 @@ body {
     font-size: 17px;
 }
 
+/* =================================
+   FONDO DEL MUSEO
+================================= */
+
+.pagina-galeria {
+    background-image:
+        linear-gradient(
+            rgba(244, 240, 231, 0.08),
+            rgba(244, 240, 231, 0.08)
+        ),
+        url("img/museo.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ENCABEZADO */
+
+.galeria-encabezado {
+    background-color: rgba(244, 240, 231, 0.35);
+}
+
+/* SECCIONES */
+
+.galeria-seccion {
+    background-color: rgba(244, 240, 231, 0.20);
+}
+
+/* OBRAS MAS VENDIDAS */
+
+.mas-vendidas {
+    background-color: rgba(216, 203, 185, 0.25);
+}
+
+/* CIERRE */
+
+.galeria-cierre {
+    background-color: rgba(244, 240, 231, 0.25);
+}
+
+/* TARJETAS DE OBRAS */
+
+.obra-card {
+    background-color: rgba(244, 240, 231, 0.88);
+}
