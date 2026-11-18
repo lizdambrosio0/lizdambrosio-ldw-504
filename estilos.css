@@ -807,3 +807,319 @@ body {
 .obra-card {
     background-color: rgba(244, 240, 231, 0.88);
 }
+
+
+/* =================================
+   PAGINA DE ARTISTAS
+================================= */
+
+.pagina-artistas {
+
+    background-image:
+        linear-gradient(
+            rgba(244,240,231,0.12),
+            rgba(244,240,231,0.12)
+        ),
+        url("img/fondo-marmol.jpg");
+
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+/* ENCABEZADO */
+
+.artistas-encabezado {
+
+    min-height: 330px;
+    padding: 75px 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: rgba(244,240,231,0.65);
+
+    border-bottom: 1px solid rgba(168,139,97,0.4);
+}
+
+.artistas-encabezado h1 {
+
+    font-family: 'Cinzel', serif;
+    font-size: clamp(35px, 5vw, 60px);
+    font-weight: 500;
+    letter-spacing: 6px;
+
+    margin-top: 20px;
+
+    color: #49372D;
+}
+
+.artistas-encabezado > p:last-child {
+
+    font-size: 23px;
+    font-style: italic;
+    color: #51443B;
+}
+
+
+/* INTRODUCCION */
+
+.artistas-introduccion {
+
+    padding: 75px 15%;
+
+    text-align: center;
+
+    background-color: rgba(244,240,231,0.55);
+}
+
+.artistas-introduccion h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    font-weight: 500;
+
+    color: #49372D;
+}
+
+.artistas-introduccion p {
+
+    max-width: 800px;
+    margin: 25px auto 0;
+
+    font-size: 21px;
+    line-height: 1.8;
+
+    color: #51443B;
+}
+
+
+/* CONTENEDOR DE ARTISTAS */
+
+.artistas-contenedor {
+
+    padding: 80px 8%;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    gap: 35px;
+
+    background-color: rgba(216,203,185,0.20);
+}
+
+
+/* TARJETAS */
+
+.artista-card {
+
+    width: 310px;
+    padding: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(244,240,231,0.91);
+
+    border: 1px solid rgba(168,139,97,0.65);
+
+    box-shadow: 0 8px 25px rgba(70,55,40,0.10);
+
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+.artista-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 30px rgba(70,55,40,0.18);
+}
+
+
+/* RETRATOS */
+
+.artista-retrato {
+
+    width: 100%;
+    padding: 8px;
+
+    border: 1px solid #B69B83;
+    background-color: #E7E1D5;
+}
+
+.artista-retrato img {
+
+    width: 100%;
+    height: 340px;
+
+    display: block;
+    object-fit: cover;
+}
+
+
+/* INFORMACION */
+
+.artista-info {
+
+    padding: 25px 10px 15px;
+    text-align: center;
+}
+
+.artista-periodo {
+
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    color: #96784F;
+}
+
+.artista-info h2 {
+
+    margin-top: 15px;
+
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    font-weight: 500;
+
+    color: #49372D;
+}
+
+.artista-info .ornamento {
+
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.artista-info > p:last-child {
+
+    font-size: 19px;
+    line-height: 1.6;
+
+    color: #51443B;
+}
+
+
+/* CIERRE */
+
+.artistas-cierre {
+
+    padding: 85px 12%;
+
+    text-align: center;
+
+    background-color: rgba(244,240,231,0.70);
+}
+
+.artistas-cierre h2 {
+
+    max-width: 750px;
+    margin: auto;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+
+    color: #49372D;
+}
+
+.artistas-cierre p {
+
+    margin-top: 25px;
+
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 4px;
+
+    color: #96784F;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .artistas-encabezado {
+        padding: 60px 7%;
+    }
+
+    .artistas-encabezado h1 {
+        letter-spacing: 3px;
+    }
+
+    .artistas-introduccion {
+        padding: 60px 8%;
+    }
+
+    .artistas-contenedor {
+        padding: 55px 5%;
+        gap: 30px;
+    }
+
+    .artista-card {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .artista-retrato img {
+        height: 380px;
+    }
+
+    .artistas-cierre {
+        padding: 65px 8%;
+    }
+
+}
+/* =================================
+   FONDO DE ARTISTAS
+================================= */
+
+.pagina-artistas {
+    background-image: url("img/fondo-artistas.jpeg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* ENCABEZADO */
+
+.artistas-encabezado {
+    background-color: rgba(244, 240, 231, 0.35);
+}
+
+/* INTRODUCCION */
+
+.artistas-introduccion {
+    background-color: rgba(244, 240, 231, 0.25);
+}
+
+/* CONTENEDOR */
+
+.artistas-contenedor {
+    background-color: rgba(244, 240, 231, 0.15);
+}
+
+/* TARJETAS */
+
+.artista-card {
+    background-color: rgba(244, 240, 231, 0.90);
+}
+
+/* CIERRE */
+
+.artistas-cierre {
+    background-color: rgba(244, 240, 231, 0.30);
+}

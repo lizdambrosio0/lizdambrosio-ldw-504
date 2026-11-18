@@ -1,39 +1,180 @@
+
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Artistas</title>
-        <link rel="stylesheet" href="estilos.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Artistas | Art Gallery Dreams</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="pagina-artistas">
+
+    <!-- NAVEGACION -->
+
     <nav class="navegador">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="artistas.html">Artistas</a></li>
+
+        <a href="index.html" class="marca">ART GALLERY DREAMS</a>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="artistas.html" class="activo">Artistas</a></li>
+        </ul>
+
     </nav>
-    <body>
-        <header class="Encabezado">
-            <h1>ARTISTAS</h1>
-            <p>Conoce a las personas detrás de las obras</p>
+
+
+    <main>
+
+        <!-- ENCABEZADO -->
+
+        <header class="artistas-encabezado">
+
+            <p class="etiqueta">EL TALENTO DETRÁS DEL ARTE</p>
+
+            <h1>NUESTROS ARTISTAS</h1>
+
+            <div class="ornamento">✧ ───── ❦ ───── ✧</div>
+
+            <p>
+                Conocé a quienes transformaron su visión
+                del mundo en obras extraordinarias.
+            </p>
+
         </header>
-       <section class="sección">
-            <div class="caja">
-                <h2>Miguel Ángel</h2>
-                <img src="img/images (1).jpeg" alt="Miguel Angel">
-                <p>Escultor y Pintor italiano</p>
-            </div>
-            <div class="caja">
-                <h2>Claude Monet</h2>
-                <img src="img/images (2).jpeg" alt="Claude Monet">
-                <p>Pintor francés</p>
-            </div>
-            <div class="caja">
-                <h2>Artemisia Gentileschi</h2>
-                <img src="img/Portrait.jpg" alt="Artemisia Gentileschi">
-                <p>Pintora barroca italiana</p>
-            </div>
-       </section>
-    </body>
+
+
+        <!-- INTRODUCCION -->
+
+        <section class="artistas-introduccion">
+
+            <h2>Detrás de cada obra, una historia</h2>
+
+            <p>
+                A lo largo de la historia, diferentes artistas
+                encontraron en el arte una forma de expresar
+                sus pensamientos, emociones y perspectivas.
+                Descubrí algunas de las figuras que dejaron
+                una huella en el mundo artístico.
+            </p>
+
+        </section>
+
+
+        <!-- ARTISTAS -->
+
+        <section class="artistas-contenedor">
+
+            <article class="artista-card">
+
+                <div class="artista-retrato">
+                    <img src="img/images (1).jpeg" alt="Retrato de Miguel Ángel">
+                </div>
+
+                <div class="artista-info">
+
+                    <p class="artista-periodo">RENACIMIENTO · ITALIA</p>
+
+                    <h2>Miguel Ángel</h2>
+
+                    <div class="ornamento">✧</div>
+
+                    <p>
+                        Escultor, pintor y arquitecto italiano,
+                        reconocido por su extraordinario dominio
+                        de la anatomía humana y sus monumentales
+                        creaciones artísticas.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="artista-card">
+
+                <div class="artista-retrato">
+                    <img src="img/images (2).jpeg" alt="Retrato de Claude Monet">
+                </div>
+
+                <div class="artista-info">
+
+                    <p class="artista-periodo">IMPRESIONISMO · FRANCIA</p>
+
+                    <h2>Claude Monet</h2>
+
+                    <div class="ornamento">✧</div>
+
+                    <p>
+                        Pintor francés y una de las figuras
+                        fundamentales del impresionismo.
+                        Sus obras exploraron la luz, el color
+                        y los cambios de la naturaleza.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="artista-card">
+
+                <div class="artista-retrato">
+                    <img src="img/Portrait.jpg" alt="Retrato de Artemisia Gentileschi">
+                </div>
+
+                <div class="artista-info">
+
+                    <p class="artista-periodo">BARROCO · ITALIA</p>
+
+                    <h2>Artemisia Gentileschi</h2>
+
+                    <div class="ornamento">✧</div>
+
+                    <p>
+                        Pintora barroca italiana, destacada
+                        por sus composiciones dramáticas,
+                        el uso expresivo de la luz y la fuerza
+                        narrativa de sus pinturas.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- CIERRE -->
+
+        <section class="artistas-cierre">
+
+            <div class="ornamento">✧ ───── ❦ ───── ✧</div>
+
+            <h2>El arte permanece allí donde una mirada logra trascender.</h2>
+
+            <p>ART GALLERY DREAMS</p>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+
     <footer class="pie">
-        <p>Liz D'Ambrosio EEST N°1 2026</p>
+
+        <p>ART GALLERY DREAMS</p>
+
+        <span>Liz D'Ambrosio · EEST N°1 · 2026</span>
+
     </footer>
+
+</body>
 </html>
