@@ -1,39 +1,197 @@
+
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Galería</title>
-        <link rel="stylesheet" href="estilos.css">
-    </head>
-    <nav class="navegador">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="artistas.html">Artistas</a></li>
-    </nav>
-    <body>
-        <header class="Encabezado">
-            <h1>GALERÍA</h1>
-        </header>
-        <section class="sección">
-            <h2>Obras Destacadas</h2>
-            <div class="images">
-                <img src="img/images.jpeg" alt="Flores">
-                <img src="img/cuadros.avif" alt="Playa">
-                <img src="img/obra.avif" alt="Pareja">  
-            </div>
-        </section>
-        <article class="sección">
-            <h2>Más Vendidas</h2>
-            <div class="images">
-                <img src="img/gioconda.jpg" alt=" La Gioconda">
-                <img src="img/el-beso.webp" alt="El Beso">
-                <img src="img/rembrandt.webp" alt="Rembrandt">
-            </div>
-            
-        </article>
-    </body>
-    <footer class="pie">
-        <p>Liz D'Ambrosio EEST N°1 2026</p>
-    </footer>
-</html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galería | Art Gallery Dreams</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="pagina-galeria">
+
+    <!-- NAVEGACION -->
+
+    <nav class="navegador">
+
+        <a href="index.html" class="marca">ART GALLERY DREAMS</a>
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html" class="activo">Galería</a></li>
+            <li><a href="artistas.html">Artistas</a></li>
+        </ul>
+
+    </nav>
+
+
+    <main>
+
+        <!-- ENCABEZADO -->
+
+        <header class="galeria-encabezado">
+
+            <p class="etiqueta">COLECCIÓN ARTÍSTICA</p>
+
+            <h1>LA GALERÍA</h1>
+
+            <div class="ornamento">✧ ───── ❦ ───── ✧</div>
+
+            <p>
+                Un recorrido por la belleza, la historia
+                y la expresión artística.
+            </p>
+
+        </header>
+
+
+        <!-- OBRAS DESTACADAS -->
+
+        <section class="galeria-seccion">
+
+            <div class="galeria-titulo">
+
+                <p class="etiqueta">NUESTRA SELECCIÓN</p>
+
+                <h2>Obras destacadas</h2>
+
+                <div class="ornamento">✧</div>
+
+            </div>
+
+
+            <div class="galeria-obras">
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/images.jpeg" alt="Obra de flores">
+                    </div>
+
+                    <h3>La belleza de la naturaleza</h3>
+
+                    <p>Arte floral</p>
+
+                </article>
+
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/cuadros.avif" alt="Paisaje de playa">
+                    </div>
+
+                    <h3>Horizontes infinitos</h3>
+
+                    <p>Paisaje</p>
+
+                </article>
+
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/obra.avif" alt="Pintura de una pareja">
+                    </div>
+
+                    <h3>Entre dos mundos</h3>
+
+                    <p>Arte figurativo</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- OBRAS MAS VENDIDAS -->
+
+        <section class="galeria-seccion mas-vendidas">
+
+            <div class="galeria-titulo">
+
+                <p class="etiqueta">LOS FAVORITOS</p>
+
+                <h2>Obras más vendidas</h2>
+
+                <div class="ornamento">✧</div>
+
+            </div>
+
+
+            <div class="galeria-obras">
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/gioconda.jpg" alt="La Gioconda">
+                    </div>
+
+                    <h3>La Gioconda</h3>
+
+                    <p>Leonardo da Vinci</p>
+
+                </article>
+
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/el-beso.webp" alt="El Beso">
+                    </div>
+
+                    <h3>El Beso</h3>
+
+                    <p>Gustav Klimt</p>
+
+                </article>
+
+
+                <article class="obra-card">
+
+                    <div class="obra-imagen">
+                        <img src="img/rembrandt.webp" alt="Obra de Rembrandt">
+                    </div>
+
+                    <h3>Obra clásica</h3>
+
+                    <p>Rembrandt</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE FINAL -->
+
+        <section class="galeria-cierre">
+
+            <div class="ornamento">✧ ───── ❦ ───── ✧</div>
+
+            <h2>Cada obra guarda un universo por descubrir.</h2>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+
+    <footer class="pie">
+
+        <p>ART GALLERY DREAMS</p>
+
+        <span>Liz D'Ambrosio · EEST N°1 · 2026</span>
+
+    </footer>
+
+</body>
+</html>
