@@ -25,28 +25,12 @@ html {
 body {
     font-family: 'Cormorant Garamond', serif;
     color: var(--marron);
-    background-color: var(--marfil);
 
-    /* Fondo inspirado en el marmol */
-
-    background-image:
-        radial-gradient(
-            ellipse at 15% 20%,
-            rgba(255,255,255,0.9),
-            transparent 45%
-        ),
-        radial-gradient(
-            ellipse at 85% 70%,
-            rgba(197,181,157,0.18),
-            transparent 50%
-        ),
-        repeating-linear-gradient(
-            115deg,
-            transparent 0px,
-            transparent 180px,
-            rgba(165,145,120,0.035) 182px,
-            transparent 184px
-        );
+    background-image: url("img/fondo-marmol.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 
