@@ -183,6 +183,7 @@ body {
 
     border: 1px solid var(--dorado);
     background-color: rgba(255,255,255,0.3);
+
 }
 
 .hero-imagen img {
@@ -190,6 +191,7 @@ body {
     height: 430px;
     object-fit: cover;
     display: block;
+    object-position: center 30%;
 }
 
 
@@ -661,3 +663,95 @@ body {
     }
 
 }
+
+/* =================================
+   MEJORAS DE LEGIBILIDAD
+================================= */
+
+/* TEXTOS GENERALES */
+
+body {
+    color: #40342D;
+}
+
+/* NAVEGACION */
+
+.navegador ul a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #51443B;
+}
+
+.marca {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+/* ETIQUETAS */
+
+.etiqueta,
+.subtitulo {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #806343;
+}
+
+/* TITULOS */
+
+.hero h1 {
+    color: #49372D;
+    font-weight: 600;
+}
+
+.introduccion h2,
+.obra-texto h2 {
+    color: #49372D;
+    font-weight: 600;
+}
+
+/* DESCRIPCIONES */
+
+.hero-descripcion {
+    font-size: 25px;
+    color: #51443B;
+}
+
+.introduccion > p:last-child {
+    font-size: 22px;
+    color: #51443B;
+    line-height: 1.9;
+}
+
+.obra-texto > p:not(.etiqueta) {
+    font-size: 22px;
+    color: #51443B;
+    line-height: 1.8;
+}
+
+/* SECCION DE INTRODUCCION */
+
+.introduccion {
+    background-color: rgba(244, 240, 231, 0.86);
+}
+
+/* SECCION OBRA DESTACADA */
+
+.obra-destacada {
+    background-color: rgba(231, 225, 213, 0.88);
+}
+
+/* ENLACES */
+
+.enlace {
+    font-size: 14px;
+    font-weight: 600;
+    color: #806343;
+}
+
+/* PIE DE PAGINA */
+
+.pie span {
+    font-size: 17px;
+}
+
