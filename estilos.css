@@ -1123,3 +1123,39 @@ body {
 .artistas-cierre {
     background-color: rgba(244, 240, 231, 0.30);
 }
+
+/* =================================
+   FONDO DE INICIO
+================================= */
+
+.pagina-inicio {
+    background-image:
+        linear-gradient(
+            rgba(244, 240, 231, 0.10),
+            rgba(244, 240, 231, 0.10)
+        ),
+        url("img/fondo-index.jpeg");
+
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+/* TRANSPARENCIA DE LAS SECCIONES */
+
+.pagina-inicio .hero {
+    background-color: rgba(231, 225, 213, 0.45);
+}
+
+.pagina-inicio .introduccion {
+    background-color: rgba(244, 240, 231, 0.35);
+}
+
+.pagina-inicio .obra-destacada {
+    background-color: rgba(216, 203, 185, 0.40);
+}
+
+.pagina-inicio .frase-final {
+    background-color: rgba(244, 240, 231, 0.35);
+}
