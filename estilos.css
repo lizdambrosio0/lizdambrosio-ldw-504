@@ -423,14 +423,19 @@ body {
    PAGINA DE GALERIA
 ================================= */
 
-.pagina-galeria {
 
+
+
+
+.pagina-galeria {
     background-image:
         linear-gradient(
-            rgba(244,240,231,0.30),
-            rgba(244,240,231,0.30)
+            rgba(244, 240, 231, 0.30),
+
+            rgba(244, 240, 231, 0.30)
         ),
-        url("img/fondo-columnas.jpg");
+
+        url("img/museo.jpeg");
 
     background-size: cover;
     background-position: center;
