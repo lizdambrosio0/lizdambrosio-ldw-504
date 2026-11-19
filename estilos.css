@@ -1145,17 +1145,17 @@ body {
 /* TRANSPARENCIA DE LAS SECCIONES */
 
 .pagina-inicio .hero {
-    background-color: rgba(231, 225, 213, 0.45);
+    background-color: rgba(231, 225, 213, 0.20);
 }
 
 .pagina-inicio .introduccion {
-    background-color: rgba(244, 240, 231, 0.35);
+    background-color: rgba(244, 240, 231, 0.18);
 }
 
 .pagina-inicio .obra-destacada {
-    background-color: rgba(216, 203, 185, 0.40);
+    background-color: rgba(216, 203, 185, 0.25);
 }
 
 .pagina-inicio .frase-final {
-    background-color: rgba(244, 240, 231, 0.35);
+    background-color: rgba(244, 240, 231, 0.18);
 }
