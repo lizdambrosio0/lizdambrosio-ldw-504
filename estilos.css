@@ -1579,3 +1579,114 @@ img {
     }
 
 }
+
+/* ==========================================
+   LEGIBILIDAD EN CELULARES
+   ========================================== */
+
+@media (max-width: 768px) {
+
+    /* PORTADA */
+
+    .hero-contenido {
+        padding: 22px 15px;
+        background-color: rgba(244, 240, 231, 0.48);
+        border: 1px solid rgba(168, 139, 97, 0.25);
+        border-radius: 3px;
+    }
+
+    .hero h1,
+    .hero-descripcion {
+        text-shadow: 0 1px 3px rgba(244, 240, 231, 0.8);
+    }
+
+
+    /* INTRODUCCION */
+
+    .introduccion {
+        background-color: rgba(244, 240, 231, 0.48);
+    }
+
+
+    /* OBRA DESTACADA */
+
+    .obra-destacada {
+        background-color: rgba(231, 225, 213, 0.50);
+    }
+
+    .obra-texto {
+        padding: 20px 15px;
+        background-color: rgba(244, 240, 231, 0.50);
+    }
+
+
+    /* FRASE FINAL */
+
+    .frase-final {
+        background-color: rgba(244, 240, 231, 0.48);
+    }
+
+
+    /* GALERIA */
+
+    .galeria-encabezado {
+        background-color: rgba(244, 240, 231, 0.55);
+    }
+
+    .galeria-seccion {
+        background-color: rgba(244, 240, 231, 0.42);
+    }
+
+    .mas-vendidas {
+        background-color: rgba(216, 203, 185, 0.50);
+    }
+
+    .galeria-cierre {
+        background-color: rgba(244, 240, 231, 0.50);
+    }
+
+
+    /* ARTISTAS */
+
+    .artistas-encabezado {
+        background-color: rgba(244, 240, 231, 0.55);
+    }
+
+    .artistas-introduccion {
+        background-color: rgba(244, 240, 231, 0.48);
+    }
+
+    .artistas-contenedor {
+        background-color: rgba(244, 240, 231, 0.35);
+    }
+
+    .artistas-cierre {
+        background-color: rgba(244, 240, 231, 0.50);
+    }
+
+
+    /* MEJORAR CONTRASTE DE LOS TEXTOS */
+
+    .hero h1,
+    .galeria-encabezado h1,
+    .artistas-encabezado h1,
+    .introduccion h2,
+    .obra-texto h2,
+    .galeria-titulo h2,
+    .artistas-introduccion h2,
+    .artista-info h2 {
+        color: #49372D;
+        text-shadow: 0 1px 2px rgba(255, 255, 255, 0.45);
+    }
+
+    .hero-descripcion,
+    .introduccion > p:last-child,
+    .obra-texto > p:not(.etiqueta),
+    .galeria-encabezado > p:last-child,
+    .artistas-encabezado > p:last-child,
+    .artistas-introduccion p,
+    .artista-info > p:last-child {
+        color: #40342D;
+    }
+
+}
